@@ -18,8 +18,48 @@ main {
     margin: auto;
 }
 
-h1 {
-    text-align: center;
+#fotoedados{
+    display: flex;
+
+}
+
+#foto > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#dados{
+    margin-left: 60px;
+}
+
+#exp{
+    display: flex;
+}
+
+#ativ-estag{
+    padding-inline-start: 18px;
+}
+
+#ativ-dev{
+    padding-inline-start: 18px;   
+}
+
+#skills{
+    display: flex;
+    text-align: left;
+}
+
+#habil > ul{
+    padding-left: 15px; 
+}
+
+#idiomas{
+    margin-left: 20px;
+}
+
+#idiomas > ul{
+    padding-left: 15px; 
 }
 
 p {
