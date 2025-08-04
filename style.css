@@ -47,12 +47,8 @@ main {
     vertical-align: top;
 }
 
-#ativ-estag{
-    padding-inline-start: 18px;
-}
-
-#ativ-dev{
-    padding-inline-start: 18px;   
+.lista{
+    padding-left: 16px;
 }
 
 #habil{
@@ -61,18 +57,10 @@ main {
     vertical-align: top;
 }
 
-#habil > ul{
-    padding-left: 15px; 
-}
-
 #idiomas{
     display: inline-block;
     width: 49%;
     vertical-align: top;
-}
-
-#idiomas > ul{
-    padding-left: 15px; 
 }
 
 p {
