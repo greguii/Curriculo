@@ -18,9 +18,9 @@ main {
     margin: auto;
 }
 
-#fotoedados{
-    display: flex;
-
+#foto{
+    display: inline-block;
+    width: 200px;
 }
 
 #foto > img{
@@ -31,10 +31,20 @@ main {
 
 #dados{
     margin-left: 60px;
+    display: inline-block;
+    width: 310px;
 }
 
-#exp{
-    display: flex;
+#estagio{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+#dev{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
 }
 
 #ativ-estag{
@@ -45,9 +55,10 @@ main {
     padding-inline-start: 18px;   
 }
 
-#skills{
-    display: flex;
-    text-align: left;
+#habil{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
 }
 
 #habil > ul{
@@ -55,7 +66,9 @@ main {
 }
 
 #idiomas{
-    margin-left: 20px;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
 }
 
 #idiomas > ul{
