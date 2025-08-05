@@ -18,8 +18,31 @@ main {
     margin: auto;
 }
 
-h1 {
-    text-align: center;
+#foto{
+    display: inline-block;
+    width: 200px;
+}
+
+#foto > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#dados{
+    margin-left: 60px;
+    display: inline-block;
+    width: 310px;
+}
+
+.carrer-box{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.lista{
+    padding-left: 16px;
 }
 
 p {
