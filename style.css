@@ -35,13 +35,7 @@ main {
     width: 310px;
 }
 
-#estagio{
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
-}
-
-#dev{
+.carrer-box{
     display: inline-block;
     width: 49%;
     vertical-align: top;
@@ -49,18 +43,6 @@ main {
 
 .lista{
     padding-left: 16px;
-}
-
-#habil{
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
-}
-
-#idiomas{
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
 }
 
 p {
